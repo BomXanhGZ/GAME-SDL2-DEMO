@@ -1,0 +1,377 @@
+﻿Build started 11/5/2024 3:40:02 PM.
+     1>Project "D:\BomXanhG-Z ~ File\GAME SDL2 DEMO\GAME SDL2 DEMO\GAME SDL2 DEMO.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt AerialThreat.cpp BaseObject.cpp BossPower.cpp BulletObject.cpp ChasingRocket.cpp DeathEyeBoss.cpp DestructionTankBoss.cpp DinoThreat.cpp EffectObject.cpp FunctionFile.cpp GameMap.cpp Geomitric.cpp GuardThreat.cpp ImpTimer.cpp main.cpp PlayerObject.cpp MenuObject.cpp PlayerPower.cpp FireRain.cpp RocketWardenBoss.cpp RockTitanBoss.cpp StaticThreat.cpp TextObject.cpp
+         TextObject.cpp
+         StaticThreat.cpp
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\gamemap.h(20): warning C4091: 'typedef ' : ignored on left of 'Map' when no variable is declared
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\geomitric.h(22): warning C4091: 'typedef ' : ignored on left of 'GeometricFormat' when no variable is declared
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\geomitric.h(32): warning C4091: 'typedef ' : ignored on left of 'ColorData' when no variable is declared
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\playerobject.h(31): warning C4091: 'typedef ' : ignored on left of 'Input' when no variable is declared
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\staticthreat.cpp(46): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\staticthreat.cpp(65): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\staticthreat.cpp(82): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\staticthreat.cpp(83): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\staticthreat.cpp(115): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\staticthreat.cpp(164): warning C4244: 'argument' : conversion from 'float' to 'const int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\staticthreat.cpp(172): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\staticthreat.cpp(204): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\staticthreat.cpp(260): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\staticthreat.cpp(295): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\staticthreat.cpp(296): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\staticthreat.cpp(298): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\staticthreat.cpp(299): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\staticthreat.cpp(311): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\staticthreat.cpp(328): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\staticthreat.cpp(357): warning C4018: '<' : signed/unsigned mismatch
+         RockTitanBoss.cpp
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\gamemap.h(20): warning C4091: 'typedef ' : ignored on left of 'Map' when no variable is declared
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\rocktitanboss.h(45): warning C4244: '=' : conversion from 'const int' to 'float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\rocktitanboss.h(46): warning C4244: '=' : conversion from 'const int' to 'float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\rocktitanboss.h(47): warning C4244: '=' : conversion from 'const int' to 'float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\rocktitanboss.h(48): warning C4244: '=' : conversion from 'const int' to 'float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\rocktitanboss.h(54): warning C4244: 'return' : conversion from 'const float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\rocktitanboss.h(55): warning C4244: 'return' : conversion from 'const float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\geomitric.h(22): warning C4091: 'typedef ' : ignored on left of 'GeometricFormat' when no variable is declared
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\geomitric.h(32): warning C4091: 'typedef ' : ignored on left of 'ColorData' when no variable is declared
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\playerobject.h(31): warning C4091: 'typedef ' : ignored on left of 'Input' when no variable is declared
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\rocktitanboss.cpp(59): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\rocktitanboss.cpp(60): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\rocktitanboss.cpp(100): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\rocktitanboss.cpp(142): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\rocktitanboss.cpp(150): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\rocktitanboss.cpp(185): warning C4244: 'argument' : conversion from 'float' to 'const int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\rocktitanboss.cpp(200): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\rocktitanboss.cpp(215): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\rocktitanboss.cpp(216): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\rocktitanboss.cpp(219): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\rocktitanboss.cpp(220): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\rocktitanboss.cpp(232): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\rocktitanboss.cpp(245): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\rocktitanboss.cpp(253): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\rocktitanboss.cpp(254): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\rocktitanboss.cpp(266): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\rocktitanboss.cpp(280): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+         RocketWardenBoss.cpp
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\gamemap.h(20): warning C4091: 'typedef ' : ignored on left of 'Map' when no variable is declared
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\geomitric.h(22): warning C4091: 'typedef ' : ignored on left of 'GeometricFormat' when no variable is declared
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\geomitric.h(32): warning C4091: 'typedef ' : ignored on left of 'ColorData' when no variable is declared
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\playerobject.h(31): warning C4091: 'typedef ' : ignored on left of 'Input' when no variable is declared
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\rocketwardenboss.cpp(36): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\rocketwardenboss.cpp(48): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\rocketwardenboss.cpp(85): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\rocketwardenboss.cpp(86): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\rocketwardenboss.cpp(89): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\rocketwardenboss.cpp(90): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\rocketwardenboss.cpp(102): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\rocketwardenboss.cpp(115): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\rocketwardenboss.cpp(123): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\rocketwardenboss.cpp(124): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\rocketwardenboss.cpp(136): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\rocketwardenboss.cpp(150): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\rocketwardenboss.cpp(178): warning C4244: 'argument' : conversion from 'float' to 'const int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\rocketwardenboss.cpp(245): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\rocketwardenboss.cpp(246): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\rocketwardenboss.cpp(344): warning C4244: 'argument' : conversion from 'float' to 'const int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\rocketwardenboss.cpp(352): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\rocketwardenboss.cpp(404): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\rocketwardenboss.cpp(405): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+         FireRain.cpp
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\gamemap.h(20): warning C4091: 'typedef ' : ignored on left of 'Map' when no variable is declared
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\geomitric.h(22): warning C4091: 'typedef ' : ignored on left of 'GeometricFormat' when no variable is declared
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\geomitric.h(32): warning C4091: 'typedef ' : ignored on left of 'ColorData' when no variable is declared
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\playerobject.h(31): warning C4091: 'typedef ' : ignored on left of 'Input' when no variable is declared
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\firerain.cpp(24): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\firerain.cpp(38): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\firerain.cpp(39): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\firerain.cpp(51): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\firerain.cpp(105): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\firerain.cpp(106): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\firerain.cpp(134): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\firerain.cpp(135): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\firerain.cpp(139): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\firerain.cpp(140): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\firerain.cpp(154): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+         PlayerPower.cpp
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\geomitric.h(22): warning C4091: 'typedef ' : ignored on left of 'GeometricFormat' when no variable is declared
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\geomitric.h(32): warning C4091: 'typedef ' : ignored on left of 'ColorData' when no variable is declared
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\playerpower.cpp(46): warning C4244: 'argument' : conversion from 'double' to 'const int', possible loss of data
+         MenuObject.cpp
+         PlayerObject.cpp
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\gamemap.h(20): warning C4091: 'typedef ' : ignored on left of 'Map' when no variable is declared
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\geomitric.h(22): warning C4091: 'typedef ' : ignored on left of 'GeometricFormat' when no variable is declared
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\geomitric.h(32): warning C4091: 'typedef ' : ignored on left of 'ColorData' when no variable is declared
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\playerobject.h(31): warning C4091: 'typedef ' : ignored on left of 'Input' when no variable is declared
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\playerobject.cpp(259): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\playerobject.cpp(264): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\playerobject.cpp(269): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\playerobject.cpp(278): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\playerobject.cpp(283): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\playerobject.cpp(288): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\playerobject.cpp(296): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\playerobject.cpp(303): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\playerobject.cpp(308): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\playerobject.cpp(318): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\playerobject.cpp(325): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\playerobject.cpp(330): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\playerobject.cpp(336): warning C4244: 'argument' : conversion from 'const int' to 'const float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\playerobject.cpp(367): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\playerobject.cpp(368): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\playerobject.cpp(381): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\playerobject.cpp(393): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\playerobject.cpp(415): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\playerobject.cpp(416): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\playerobject.cpp(418): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\playerobject.cpp(419): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\playerobject.cpp(454): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\playerobject.cpp(484): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\playerobject.cpp(519): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\playerobject.cpp(520): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\playerobject.cpp(522): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\playerobject.cpp(523): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\playerobject.cpp(550): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\playerobject.cpp(581): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\playerobject.cpp(593): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\playerobject.cpp(702): warning C4018: '<' : signed/unsigned mismatch
+         main.cpp
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\gamemap.h(20): warning C4091: 'typedef ' : ignored on left of 'Map' when no variable is declared
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\geomitric.h(22): warning C4091: 'typedef ' : ignored on left of 'GeometricFormat' when no variable is declared
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\geomitric.h(32): warning C4091: 'typedef ' : ignored on left of 'ColorData' when no variable is declared
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\playerobject.h(31): warning C4091: 'typedef ' : ignored on left of 'Input' when no variable is declared
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\guardthreat.h(64): warning C4091: 'typedef ' : ignored on left of 'InPut' when no variable is declared
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\guardthreat.h(92): warning C4244: '=' : conversion from 'const int' to 'float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\guardthreat.h(93): warning C4244: '=' : conversion from 'const int' to 'float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\aerialthreat.h(46): warning C4244: '=' : conversion from 'const int' to 'float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\aerialthreat.h(47): warning C4244: '=' : conversion from 'const int' to 'float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\rocktitanboss.h(45): warning C4244: '=' : conversion from 'const int' to 'float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\rocktitanboss.h(46): warning C4244: '=' : conversion from 'const int' to 'float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\rocktitanboss.h(47): warning C4244: '=' : conversion from 'const int' to 'float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\rocktitanboss.h(48): warning C4244: '=' : conversion from 'const int' to 'float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\rocktitanboss.h(54): warning C4244: 'return' : conversion from 'const float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\rocktitanboss.h(55): warning C4244: 'return' : conversion from 'const float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\destructiontankboss.h(55): warning C4244: '=' : conversion from 'const int' to 'float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\destructiontankboss.h(56): warning C4244: '=' : conversion from 'const int' to 'float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\destructiontankboss.h(57): warning C4244: '=' : conversion from 'const int' to 'float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\destructiontankboss.h(58): warning C4244: '=' : conversion from 'const int' to 'float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\destructiontankboss.h(65): warning C4244: 'return' : conversion from 'const float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\destructiontankboss.h(66): warning C4244: 'return' : conversion from 'const float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\main.cpp(103): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\main.cpp(73): warning C4101: 'menu_game_ado' : unreferenced local variable
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\main.cpp(121): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\main.cpp(212): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110) : see declaration of 'strcpy'
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\main.cpp(491): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\main.cpp(513): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\main.cpp(546): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\main.cpp(555): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\main.cpp(557): warning C4805: '==' : unsafe mix of type 'int' and type 'bool' in operation
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\main.cpp(564): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\main.cpp(583): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\main.cpp(762): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\main.cpp(789): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\main.cpp(804): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\main.cpp(836): warning C4018: '<' : signed/unsigned mismatch
+         ImpTimer.cpp
+         GuardThreat.cpp
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\gamemap.h(20): warning C4091: 'typedef ' : ignored on left of 'Map' when no variable is declared
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\guardthreat.h(64): warning C4091: 'typedef ' : ignored on left of 'InPut' when no variable is declared
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\guardthreat.h(92): warning C4244: '=' : conversion from 'const int' to 'float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\guardthreat.h(93): warning C4244: '=' : conversion from 'const int' to 'float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\geomitric.h(22): warning C4091: 'typedef ' : ignored on left of 'GeometricFormat' when no variable is declared
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\geomitric.h(32): warning C4091: 'typedef ' : ignored on left of 'ColorData' when no variable is declared
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\playerobject.h(31): warning C4091: 'typedef ' : ignored on left of 'Input' when no variable is declared
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\guardthreat.cpp(82): warning C4244: 'argument' : conversion from 'float' to 'const int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\guardthreat.cpp(86): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\guardthreat.cpp(131): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\guardthreat.cpp(132): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\guardthreat.cpp(173): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\guardthreat.cpp(211): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\guardthreat.cpp(212): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\guardthreat.cpp(214): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\guardthreat.cpp(215): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\guardthreat.cpp(230): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\guardthreat.cpp(248): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\guardthreat.cpp(261): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\guardthreat.cpp(262): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\guardthreat.cpp(264): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\guardthreat.cpp(265): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\guardthreat.cpp(277): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\guardthreat.cpp(294): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\guardthreat.cpp(361): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\guardthreat.cpp(362): warning C4244: 'argument' : conversion from 'const int' to 'const float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\guardthreat.cpp(416): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\guardthreat.cpp(461): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\guardthreat.cpp(465): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\guardthreat.cpp(469): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+         Geomitric.cpp
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\geomitric.h(22): warning C4091: 'typedef ' : ignored on left of 'GeometricFormat' when no variable is declared
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\geomitric.h(32): warning C4091: 'typedef ' : ignored on left of 'ColorData' when no variable is declared
+         GameMap.cpp
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\gamemap.h(20): warning C4091: 'typedef ' : ignored on left of 'Map' when no variable is declared
+         FunctionFile.cpp
+         EffectObject.cpp
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\gamemap.h(20): warning C4091: 'typedef ' : ignored on left of 'Map' when no variable is declared
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\effectobject.cpp(43): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\effectobject.cpp(44): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+         DinoThreat.cpp
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\gamemap.h(20): warning C4091: 'typedef ' : ignored on left of 'Map' when no variable is declared
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\geomitric.h(22): warning C4091: 'typedef ' : ignored on left of 'GeometricFormat' when no variable is declared
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\geomitric.h(32): warning C4091: 'typedef ' : ignored on left of 'ColorData' when no variable is declared
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\playerobject.h(31): warning C4091: 'typedef ' : ignored on left of 'Input' when no variable is declared
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\dinothreat.cpp(42): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\dinothreat.cpp(59): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\dinothreat.cpp(60): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\dinothreat.cpp(102): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\dinothreat.cpp(103): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\dinothreat.cpp(105): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\dinothreat.cpp(106): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\dinothreat.cpp(118): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\dinothreat.cpp(131): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\dinothreat.cpp(141): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\dinothreat.cpp(142): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\dinothreat.cpp(144): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\dinothreat.cpp(145): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\dinothreat.cpp(157): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\dinothreat.cpp(169): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\dinothreat.cpp(205): warning C4305: '=' : truncation from 'double' to 'float'
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\dinothreat.cpp(209): warning C4305: '=' : truncation from 'double' to 'float'
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\dinothreat.cpp(273): warning C4018: '<' : signed/unsigned mismatch
+         DestructionTankBoss.cpp
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\gamemap.h(20): warning C4091: 'typedef ' : ignored on left of 'Map' when no variable is declared
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\destructiontankboss.h(55): warning C4244: '=' : conversion from 'const int' to 'float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\destructiontankboss.h(56): warning C4244: '=' : conversion from 'const int' to 'float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\destructiontankboss.h(57): warning C4244: '=' : conversion from 'const int' to 'float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\destructiontankboss.h(58): warning C4244: '=' : conversion from 'const int' to 'float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\destructiontankboss.h(65): warning C4244: 'return' : conversion from 'const float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\destructiontankboss.h(66): warning C4244: 'return' : conversion from 'const float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\geomitric.h(22): warning C4091: 'typedef ' : ignored on left of 'GeometricFormat' when no variable is declared
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\geomitric.h(32): warning C4091: 'typedef ' : ignored on left of 'ColorData' when no variable is declared
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\playerobject.h(31): warning C4091: 'typedef ' : ignored on left of 'Input' when no variable is declared
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\destructiontankboss.cpp(73): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\destructiontankboss.cpp(76): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\destructiontankboss.cpp(77): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\destructiontankboss.cpp(117): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\destructiontankboss.cpp(118): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\destructiontankboss.cpp(148): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\destructiontankboss.cpp(184): warning C4244: 'argument' : conversion from 'float' to 'const int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\destructiontankboss.cpp(212): warning C4244: 'argument' : conversion from 'float' to 'const int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\destructiontankboss.cpp(268): warning C4244: 'argument' : conversion from 'float' to 'const int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\destructiontankboss.cpp(315): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\destructiontankboss.cpp(320): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\destructiontankboss.cpp(339): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\destructiontankboss.cpp(340): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\destructiontankboss.cpp(343): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\destructiontankboss.cpp(344): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\destructiontankboss.cpp(356): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\destructiontankboss.cpp(369): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\destructiontankboss.cpp(377): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\destructiontankboss.cpp(378): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\destructiontankboss.cpp(390): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\destructiontankboss.cpp(404): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+         DeathEyeBoss.cpp
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\gamemap.h(20): warning C4091: 'typedef ' : ignored on left of 'Map' when no variable is declared
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\geomitric.h(22): warning C4091: 'typedef ' : ignored on left of 'GeometricFormat' when no variable is declared
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\geomitric.h(32): warning C4091: 'typedef ' : ignored on left of 'ColorData' when no variable is declared
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\playerobject.h(31): warning C4091: 'typedef ' : ignored on left of 'Input' when no variable is declared
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\deatheyeboss.cpp(34): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\deatheyeboss.cpp(47): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\deatheyeboss.cpp(74): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\deatheyeboss.cpp(75): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\deatheyeboss.cpp(140): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\deatheyeboss.cpp(145): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\deatheyeboss.cpp(150): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\deatheyeboss.cpp(155): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\deatheyeboss.cpp(163): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\deatheyeboss.cpp(164): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\deatheyeboss.cpp(263): warning C4305: '=' : truncation from 'double' to 'float'
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\deatheyeboss.cpp(267): warning C4305: '=' : truncation from 'double' to 'float'
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\deatheyeboss.cpp(322): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\deatheyeboss.cpp(323): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\deatheyeboss.cpp(430): warning C4244: 'argument' : conversion from 'double' to 'const int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\deatheyeboss.cpp(551): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\deatheyeboss.cpp(617): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\deatheyeboss.cpp(623): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\deatheyeboss.cpp(639): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\deatheyeboss.cpp(665): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+         ChasingRocket.cpp
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\gamemap.h(20): warning C4091: 'typedef ' : ignored on left of 'Map' when no variable is declared
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\geomitric.h(22): warning C4091: 'typedef ' : ignored on left of 'GeometricFormat' when no variable is declared
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\geomitric.h(32): warning C4091: 'typedef ' : ignored on left of 'ColorData' when no variable is declared
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\playerobject.h(31): warning C4091: 'typedef ' : ignored on left of 'Input' when no variable is declared
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\chasingrocket.cpp(39): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\chasingrocket.cpp(53): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\chasingrocket.cpp(54): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\chasingrocket.cpp(83): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\chasingrocket.cpp(117): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+         BulletObject.cpp
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\gamemap.h(20): warning C4091: 'typedef ' : ignored on left of 'Map' when no variable is declared
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\geomitric.h(22): warning C4091: 'typedef ' : ignored on left of 'GeometricFormat' when no variable is declared
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\geomitric.h(32): warning C4091: 'typedef ' : ignored on left of 'ColorData' when no variable is declared
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\playerobject.h(31): warning C4091: 'typedef ' : ignored on left of 'Input' when no variable is declared
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\bulletobject.cpp(48): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\bulletobject.cpp(49): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\bulletobject.cpp(59): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\bulletobject.cpp(60): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\bulletobject.cpp(162): warning C4244: '+=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\bulletobject.cpp(168): warning C4244: '-=' : conversion from 'float' to 'int', possible loss of data
+         Generating Code...
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\bulletobject.cpp(233): warning C4715: 'BulletObject::Get_img_bullet_type' : not all control paths return a value
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\guardthreat.cpp(391): warning C4715: 'GuardThreat::HandleOgBullet' : not all control paths return a value
+         Compiling...
+         BossPower.cpp
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\bosspower.cpp(14): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\bosspower.cpp(15): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\bosspower.cpp(28): warning C4244: 'argument' : conversion from 'double' to 'const int', possible loss of data
+         BaseObject.cpp
+         AerialThreat.cpp
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\gamemap.h(20): warning C4091: 'typedef ' : ignored on left of 'Map' when no variable is declared
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\aerialthreat.h(46): warning C4244: '=' : conversion from 'const int' to 'float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\aerialthreat.h(47): warning C4244: '=' : conversion from 'const int' to 'float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\geomitric.h(22): warning C4091: 'typedef ' : ignored on left of 'GeometricFormat' when no variable is declared
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\geomitric.h(32): warning C4091: 'typedef ' : ignored on left of 'ColorData' when no variable is declared
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\playerobject.h(31): warning C4091: 'typedef ' : ignored on left of 'Input' when no variable is declared
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\aerialthreat.cpp(42): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\aerialthreat.cpp(53): warning C4244: 'argument' : conversion from 'float' to 'const int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\aerialthreat.cpp(57): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\aerialthreat.cpp(91): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\aerialthreat.cpp(103): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\aerialthreat.cpp(104): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\aerialthreat.cpp(136): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\aerialthreat.cpp(152): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\aerialthreat.cpp(208): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\aerialthreat.cpp(209): warning C4244: 'argument' : conversion from 'float' to 'const int', possible loss of data
+         Generating Code...
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\aerialthreat.cpp(240): warning C4715: 'AerialThreat::HandleIsBullet' : not all control paths return a value
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug\GAME SDL2 DEMO.res" "GAME SDL2 DEMO.rc" 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\BomXanhG-Z ~ File\GAME SDL2 DEMO\Debug\HeroReborn.exe" /INCREMENTAL /NOLOGO SDL2.lib SDL2main.lib SDL2_image.lib SDL2_mixer.lib SDL2_ttf.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\BomXanhG-Z ~ File\GAME SDL2 DEMO\Debug\HeroReborn.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\BomXanhG-Z ~ File\GAME SDL2 DEMO\Debug\HeroReborn.lib" /MACHINE:X86 "Debug\GAME SDL2 DEMO.res"
+         Debug\AerialThreat.obj
+         Debug\BaseObject.obj
+         Debug\BossPower.obj
+         Debug\BulletObject.obj
+         Debug\ChasingRocket.obj
+         Debug\DeathEyeBoss.obj
+         Debug\DestructionTankBoss.obj
+         Debug\DinoThreat.obj
+         Debug\EffectObject.obj
+         Debug\FunctionFile.obj
+         Debug\GameMap.obj
+         Debug\Geomitric.obj
+         Debug\GuardThreat.obj
+         Debug\ImpTimer.obj
+         Debug\main.obj
+         Debug\PlayerObject.obj
+         Debug\MenuObject.obj
+         Debug\PlayerPower.obj
+         Debug\FireRain.obj
+         Debug\RocketWardenBoss.obj
+         Debug\RockTitanBoss.obj
+         Debug\StaticThreat.obj
+         Debug\TextObject.obj
+         GAME SDL2 DEMO.vcxproj -> D:\BomXanhG-Z ~ File\GAME SDL2 DEMO\Debug\HeroReborn.exe
+     1>Done Building Project "D:\BomXanhG-Z ~ File\GAME SDL2 DEMO\GAME SDL2 DEMO\GAME SDL2 DEMO.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:24.83

@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E4790434-D752-4ED4-BF1C-B4DD21A9E1D5}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>GAMESDL2DEMO</RootNamespace>
+    <ProjectName>HeroReborn</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(SolutionDir)SDL2\SDL2-2.0.8\include;$(SolutionDir)SDL2\SDL2_ttf-2.0.14\include;$(SolutionDir)SDL2\SDL2_image-2.0.3\include;$(SolutionDir)SDL2\SDL2_mixer-2.0.2\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)SDL2\SDL2_image-2.0.3\lib\x86;$(SolutionDir)SDL2\SDL2_mixer-2.0.2\lib\x86;$(SolutionDir)SDL2\SDL2_ttf-2.0.14\lib\x86;$(SolutionDir)SDL2\SDL2-2.0.8\lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;SDL2_mixer.lib;SDL2_ttf.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)SDL2\SDL2_mixer-2.0.2\include;$(SolutionDir)SDL2\SDL2_image-2.0.3\include;$(SolutionDir)SDL2\SDL2_ttf-2.0.14\include;$(SolutionDir)SDL2\SDL2-2.0.8\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(SolutionDir)SDL2\SDL2-2.0.8\lib\x86;$(SolutionDir)SDL2\SDL2_ttf-2.0.14\lib\x86;$(SolutionDir)SDL2\SDL2_mixer-2.0.2\lib\x86;$(SolutionDir)SDL2\SDL2_image-2.0.3\lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;SDL2_mixer.lib;SDL2_ttf.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="AerialThreat.h" />
+    <ClInclude Include="BaseObject.h" />
+    <ClInclude Include="BossPower.h" />
+    <ClInclude Include="BulletObject.h" />
+    <ClInclude Include="ChasingRocket.h" />
+    <ClInclude Include="DeathEyeBoss.h" />
+    <ClInclude Include="DestructionTankBoss.h" />
+    <ClInclude Include="DinoThreat.h" />
+    <ClInclude Include="EffectObject.h" />
+    <ClInclude Include="FunctionFile.h" />
+    <ClInclude Include="GameMap.h" />
+    <ClInclude Include="Geomitric.h" />
+    <ClInclude Include="GuardThreat.h" />
+    <ClInclude Include="ImpTimer.h" />
+    <ClInclude Include="PlayerObject.h" />
+    <ClInclude Include="MenuObject.h" />
+    <ClInclude Include="PlayerPower.h" />
+    <ClInclude Include="FireRain.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="RocketWardenBoss.h" />
+    <ClInclude Include="RockTitanBoss.h" />
+    <ClInclude Include="StaticThreat.h" />
+    <ClInclude Include="TextObject.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AerialThreat.cpp" />
+    <ClCompile Include="BaseObject.cpp" />
+    <ClCompile Include="BossPower.cpp" />
+    <ClCompile Include="BulletObject.cpp" />
+    <ClCompile Include="ChasingRocket.cpp" />
+    <ClCompile Include="DeathEyeBoss.cpp" />
+    <ClCompile Include="DestructionTankBoss.cpp" />
+    <ClCompile Include="DinoThreat.cpp" />
+    <ClCompile Include="EffectObject.cpp" />
+    <ClCompile Include="FunctionFile.cpp" />
+    <ClCompile Include="GameMap.cpp" />
+    <ClCompile Include="Geomitric.cpp" />
+    <ClCompile Include="GuardThreat.cpp" />
+    <ClCompile Include="ImpTimer.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="PlayerObject.cpp" />
+    <ClCompile Include="MenuObject.cpp" />
+    <ClCompile Include="PlayerPower.cpp" />
+    <ClCompile Include="FireRain.cpp" />
+    <ClCompile Include="RocketWardenBoss.cpp" />
+    <ClCompile Include="RockTitanBoss.cpp" />
+    <ClCompile Include="StaticThreat.cpp" />
+    <ClCompile Include="TextObject.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GAME SDL2 DEMO.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="gameicon.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,71 @@
+﻿Build started 10/26/2024 2:38:08 AM.
+     1>Project "D:\BomXanhG-Z ~ File\GAME SDL2 DEMO\GAME SDL2 DEMO\GAME SDL2 DEMO.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt PlayerObject.cpp
+         PlayerObject.cpp
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\gamemap.h(20): warning C4091: 'typedef ' : ignored on left of 'Map' when no variable is declared
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\geomitric.h(22): warning C4091: 'typedef ' : ignored on left of 'GeometricFormat' when no variable is declared
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\geomitric.h(32): warning C4091: 'typedef ' : ignored on left of 'ColorData' when no variable is declared
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\playerobject.h(31): warning C4091: 'typedef ' : ignored on left of 'Input' when no variable is declared
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\playerobject.cpp(259): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\playerobject.cpp(264): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\playerobject.cpp(269): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\playerobject.cpp(278): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\playerobject.cpp(283): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\playerobject.cpp(288): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\playerobject.cpp(296): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\playerobject.cpp(303): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\playerobject.cpp(308): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\playerobject.cpp(318): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\playerobject.cpp(325): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\playerobject.cpp(330): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\playerobject.cpp(336): warning C4244: 'argument' : conversion from 'const int' to 'const float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\playerobject.cpp(367): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\playerobject.cpp(368): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\playerobject.cpp(381): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\playerobject.cpp(393): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\playerobject.cpp(415): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\playerobject.cpp(416): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\playerobject.cpp(417): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\playerobject.cpp(419): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\playerobject.cpp(420): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\playerobject.cpp(455): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\playerobject.cpp(485): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\playerobject.cpp(520): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\playerobject.cpp(521): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\playerobject.cpp(523): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\playerobject.cpp(524): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\playerobject.cpp(551): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\playerobject.cpp(582): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\playerobject.cpp(594): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\bomxanhg-z ~ file\game sdl2 demo\game sdl2 demo\playerobject.cpp(703): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\BomXanhG-Z ~ File\GAME SDL2 DEMO\Debug\GAME SDL2 DEMO.exe" /INCREMENTAL /NOLOGO SDL2.lib SDL2main.lib SDL2_image.lib SDL2_mixer.lib SDL2_ttf.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\BomXanhG-Z ~ File\GAME SDL2 DEMO\Debug\GAME SDL2 DEMO.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\BomXanhG-Z ~ File\GAME SDL2 DEMO\Debug\GAME SDL2 DEMO.lib" /MACHINE:X86 Debug\AerialThreat.obj
+         Debug\BaseObject.obj
+         Debug\BossPower.obj
+         Debug\BulletObject.obj
+         Debug\ChasingRocket.obj
+         Debug\DeathEyeBoss.obj
+         Debug\DestructionTankBoss.obj
+         Debug\DinoThreat.obj
+         Debug\EffectObject.obj
+         Debug\FunctionFile.obj
+         Debug\GameMap.obj
+         Debug\Geomitric.obj
+         Debug\GuardThreat.obj
+         Debug\ImpTimer.obj
+         Debug\main.obj
+         Debug\PlayerObject.obj
+         Debug\MenuObject.obj
+         Debug\PlayerPower.obj
+         Debug\FireRain.obj
+         Debug\RocketWardenBoss.obj
+         Debug\RockTitanBoss.obj
+         Debug\StaticThreat.obj
+         Debug\TextObject.obj
+         GAME SDL2 DEMO.vcxproj -> D:\BomXanhG-Z ~ File\GAME SDL2 DEMO\Debug\GAME SDL2 DEMO.exe
+     1>Done Building Project "D:\BomXanhG-Z ~ File\GAME SDL2 DEMO\GAME SDL2 DEMO\GAME SDL2 DEMO.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.78

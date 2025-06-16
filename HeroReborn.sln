@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HeroReborn", "GAME SDL2 DEMO\GAME SDL2 DEMO.vcxproj", "{E4790434-D752-4ED4-BF1C-B4DD21A9E1D5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E4790434-D752-4ED4-BF1C-B4DD21A9E1D5}.Debug|Win32.ActiveCfg = Release|Win32
+		{E4790434-D752-4ED4-BF1C-B4DD21A9E1D5}.Debug|Win32.Build.0 = Release|Win32
+		{E4790434-D752-4ED4-BF1C-B4DD21A9E1D5}.Release|Win32.ActiveCfg = Release|Win32
+		{E4790434-D752-4ED4-BF1C-B4DD21A9E1D5}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
