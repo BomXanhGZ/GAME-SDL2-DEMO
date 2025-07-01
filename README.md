@@ -32,7 +32,7 @@ where players fight enemies and bosses to reclaim conquered lands.
 ## System Requirements
 
 - Operating System: Windows or Linux  
-- Required Libraries: SDL2, SDL_image, SDL_mixer  
+- Required Libraries: SDL2, SDL_image, SDL_mixer, SDL_ttf
 - Compiler: g++ or Visual Studio
 
 
