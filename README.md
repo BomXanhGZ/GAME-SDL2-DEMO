@@ -39,15 +39,16 @@ where players fight enemies and bosses to reclaim conquered lands.
 ---
 ## How to Run
 
-# Option 1: Run from Source
+### Option 1: Run from Source
 
 ```bash
 git clone https://github.com/BomXanhGZ/GAME-SDL2-DEMO.git
 cd GAME-SDL2-DEMO
 make
-./bin/hero_reborn
+./bin/hero_reborn 
+```
 
-# Option2: Install and Setup File
+### Option 2: Install and Setup File
 Install Link https://drive.google.com/file/d/1gOQ-0UT4RdoMCFiCEgbQacDJ-3YOqedU/view?usp=drive_link
 
 
