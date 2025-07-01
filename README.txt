@@ -7,7 +7,9 @@ where players fight enemies and bosses to reclaim conquered lands.
 ---
 ## 🎮 Demo Gameplay
 
-demo git
+![Demo](./HeroRebornGIF1.gif)
+
+![Demo](./HeroRebornGIF2.gif)
 
 
 ---
@@ -46,7 +48,7 @@ make
 ./bin/hero_reborn
 
 # Option2: Install and Setup File
-Install Link https://drive.google.com/file/d/1-9ivzxm9cEFRGHSuix6jg7GMoiR1gNLj/view?usp=drive_link
+Install Link https://drive.google.com/file/d/1gOQ-0UT4RdoMCFiCEgbQacDJ-3YOqedU/view?usp=drive_link
 
 
 ---
