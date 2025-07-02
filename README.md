@@ -55,10 +55,10 @@ Install Link https://drive.google.com/file/d/1gOQ-0UT4RdoMCFiCEgbQacDJ-3YOqedU/v
 ---
 ## Author
 
-Name: DO THIEN HAO 
-Pen name: BomXanhG-Z! 
-GitHub: https://github.com/BomXanhGZ 
-Email: haodo2805@gmail.com 
+**Name:** DO THIEN HAO  
+**Pen name:** BomXanhG-Z!  
+**GitHub:** [https://github.com/BomXanhGZ](https://github.com/BomXanhGZ)  
+**Email:** haodo2805@gmail.com
 
 
 ---
